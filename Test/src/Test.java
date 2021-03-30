@@ -1,5 +1,6 @@
-public class Test {
-    public static void main(String[] args) {
-        System.out.println("hello world");
+public class Test implements Runnable{
+    @Override
+    public void run() {
+
     }
 }
